@@ -1,4 +1,3 @@
-//We are learning loops
 //Loops execute a block a certain number of times
 //While loops
 //A while loop executes a certain block of code as long as an expression evaluates to true
