@@ -61,6 +61,15 @@ do {
 } while (!(number >= 0 && number < 100));
 console.log(number);
 //practise exercise
+let counter = 0;
+const step = 5;
+do{
+    console.log("counter:",counter);
+    counter += step;
+}
+while(counter < 100);
+
+
 
 
 
