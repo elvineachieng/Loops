@@ -51,4 +51,16 @@ while (!isCorrect) {
     console.log("Too high. Try again.");
   }
 }
+//do while loops
+/*do {
+ // code to be executed if the condition is true
+} while (condition);*/
+let number;
+do {
+ number = prompt("Please enter a number between 0 and 100: ");
+} while (!(number >= 0 && number < 100));
+console.log(number);
+//practise exercise
+
+
 
