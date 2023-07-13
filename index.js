@@ -27,3 +27,28 @@ while(fibonacciArray.length < 25){
     nr2 = temp;
 }
 console.log(fibonacciArray);
+// Step 1: Define the max value for the number guessing game
+const maxValue = 5;
+
+// Step 2: Generate a random number for the solution
+const solution = Math.floor(Math.random() * maxValue) + 1;
+console.log("Solution:", solution); // Comment out this line when the game is complete
+
+// Step 3: Initialize a variable to track whether the answer is correct
+let isCorrect = false;
+
+// Step 4: Use a while loop to ask the user for guesses
+while (!isCorrect) {
+  const guess = Number(prompt(`Enter a number between 1 and ${maxValue}:`));
+
+  // Step 5: Check if the guess is correct and provide feedback
+  if (guess === solution) {
+    isCorrect = true;
+    console.log("Congratulations! You guessed correctly.");
+  } else if (guess < solution) {
+    console.log("Too low. Try again.");
+  } else {
+    console.log("Too high. Try again.");
+  }
+}
+
