@@ -68,6 +68,13 @@ do{
     counter += step;
 }
 while(counter < 100);
+//for loops
+/*for (initialize variable; condition; statement) { 
+ // code to be executed
+}*/
+for (let r = 0; r < 10; i++) {
+    console.log(r);
+}
 
 
 
