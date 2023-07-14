@@ -72,8 +72,13 @@ while(counter < 100);
 /*for (initialize variable; condition; statement) { 
  // code to be executed
 }*/
-for (let r = 0; r < 10; i++) {
+for (let r = 0; r < 10; r++) {
     console.log(r);
+}
+let arr = [];
+for (let i = 0; i < 100; i++) {
+ arr.push(i);
+ console.log(arr);
 }
 
 
